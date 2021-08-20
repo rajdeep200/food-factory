@@ -1,0 +1,55 @@
+.orderItem{
+    margin: 0.5rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid black;
+}
+
+.orderItem_img img{
+    width: 7rem;
+}
+
+.orderItem_details{
+    padding: 1rem;
+}
+
+.orderItem_title{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.orderItem_quantity{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.orderItem_numberSection{
+    padding: 1rem;
+}
+
+.orderItem_number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.orderItem_priceSection{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.orderItem_priceText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.orderItem_price{
+    margin-left: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

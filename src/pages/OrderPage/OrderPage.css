@@ -1,0 +1,29 @@
+.orderPage{
+    background-color: white;
+    height: 90vh;
+    margin: 2rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.orderPage_heading{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.orderPage_details{
+    padding: 1rem;
+    overflow: auto;
+}
+
+.orderPage_total{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
